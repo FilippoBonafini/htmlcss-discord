@@ -85,14 +85,14 @@
 /* ---------- */
 /* HEADER */
 /* ---------- */
-header {
-    background-color:#255ee9;
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 header .header-top {
     /* background-color: #add8e6; */
     padding: 15px 0;
+    background-color:#255ee9;
 }
 
 header .header-top .header-bar {
@@ -111,7 +111,7 @@ header .header-top .header-login {
     text-align: left;
 }
 
-.button{
+a{
     border: radius 20px;
 }
 
@@ -176,7 +176,7 @@ header .header-bottom {
     justify-content: center;
     text-align: center;
     background-color: #255ee9;
-    font-size: 25px;
+    font-size: 19px;
     color: white;
 
 }
@@ -234,13 +234,15 @@ main .sezione3 .content{
 }
 
 .sezione1 .content .content-blu{
-    background-color:#1e90ff;
     width: 60%;
 }
 
 .sezione1 .content .content-pink{
-    background-color:#ffc0cb;
     width: 40%;
+}
+
+.box{
+    margin: 30px;
 }
 
 .sezione3 .content{
@@ -254,7 +256,10 @@ main .sezione3 .content{
 
 .sezione2 .content-green{
     width: 1200px;
-    background-color:#228b22;
+}
+
+.sezione2 .box {
+    text-align: center;
 }
 
 .sezione3{
@@ -300,8 +305,36 @@ footer{
 
 .sfondo-grigio{
     padding: 50px 0;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
+
+.box h2{
+    font-size: 40px;
+    margin: 30px;
+}
+
+.box p{
+    margin: 0 30px;
+}
+
+.sezione2 .box h3{
+    font-size: 25px;
+    margin: 40px ;
+}
+
+.sezione2 .box a{
+    color: white;
+    background-color: #7289da;
+    padding: 15px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+
+.sezione2 .box .download{
+    margin-bottom: 100px;
+}
+
 
 /* ---------- */
 /* FOOTER */
