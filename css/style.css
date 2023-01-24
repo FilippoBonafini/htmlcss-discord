@@ -305,7 +305,9 @@ footer{
 .sfondo-grigio{
     padding: 50px 0;
     background-color: #f6f6f6;
+  
 }
+
 
 .box h2{
     font-size: 40px;
@@ -359,6 +361,10 @@ footer{
     display: flex;
     gap: 25px;
     margin-top: 15px;
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
 }
 /* ---------- */
 /* FOOTER */
