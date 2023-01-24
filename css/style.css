@@ -241,9 +241,7 @@ main .sezione3 .content{
     width: 40%;
 }
 
-.box{
-    margin: 30px;
-}
+
 
 .sezione3 .content{
     width: 1200px;
@@ -267,13 +265,11 @@ main .sezione3 .content{
 }
 
 .sezione3 .content .content-red{
-    background-color:#f08080;
-    flex-grow: 2;
+    width: 300px;
 }
 
 .sezione3 .content .content-acqua{
-    background-color:#20b2aa;
-    flex-grow: 1;}
+    width:260px;}
 
 .fine-pagina{
     background-color:#7fffd4;
@@ -335,7 +331,32 @@ footer{
     margin-bottom: 100px;
 }
 
+.content-red{
+    padding:50px 10px;
+    font-size: 30px;
+}
 
+.content-acqua{
+    padding: 50px 10px;
+}
+
+.content-red img{
+    width: 25px;
+}
+
+.testo-footer{
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+}
+
+.icone{
+    font-size: 24px;
+    color: white;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
 /* ---------- */
 /* FOOTER */
 /* ---------- */
@@ -350,4 +371,16 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sezione3 .content-acqua .titolo,
+.sezione3 .content-red .titolo{
+    color: #7289da;
+}
+.content .box a,
+.content .box li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
 }
