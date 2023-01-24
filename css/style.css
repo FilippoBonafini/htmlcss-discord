@@ -1,0 +1,280 @@
+/* ----------- */
+/* RESET  */
+/* ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- */
+/* DEBUG */
+/* ---------- */
+
+
+
+
+
+
+.debug header .header-top .header-bar>div,
+.debug header .header-top .header-bar>nav,
+.debug header .header-bottom > div
+ {
+    border: 2px dashed black;
+}
+
+.debug header .header-bottom .content {
+    height: 400px;
+}
+
+
+.debug main section .row > .col-big,
+.debug main section .row > .col-small {
+    height: 600px;
+}
+
+
+
+.debug main section .row > .col-full {
+    height: 900px;
+}
+
+.debug footer .footer-top .menu-column > .col {
+    border: 2px dashed white;
+}
+
+
+
+
+
+
+
+.debug header{
+    background-color:#add8e6 ;
+}
+
+
+.debug .box{
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+
+.debug .presentazione .content{
+    height: 400px;
+}
+.debug  .sezione1 .content{
+    height: 500px;}
+
+
+.debug  .sezione2 .content-green{
+    height: 900px;
+}
+
+.debug  .sezione3 .content{
+    height: 500px;}
+
+
+
+.debug .fine-pagina{
+    height: 80px;
+}
+
+
+/* ---------- */
+/* HEADER */
+/* ---------- */
+header {
+    border-bottom: 4px solid #add8e6;
+    background-color:#255ee9;
+}
+
+header .header-top {
+    /* background-color: #add8e6; */
+    padding: 15px 0;
+}
+
+header .header-top .header-bar {
+    display: flex;
+    /* background-color: goldenrod; */
+    align-items: center;
+
+}
+
+header .header-top .header-bar > div,
+header .header-top .header-bar > nav {
+    padding: 10px;
+}
+
+header .header-top .header-login {
+    text-align: left;
+}
+
+
+
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+
+header .header-top .header-logo{
+    text-align: right;
+}
+
+header .header-top .header-logo,
+header .header-top .header-login {
+    width: 20%;
+}
+
+header .header-top .header-links {
+    flex-grow: 1;
+}
+
+header .header-top .header-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+header .header-bottom {
+    /* background-color: #00008b; */
+    background: url(/img/jumbo.png);
+    background-size:contain;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header .header-bottom .content {
+    /* background-color: #ee82ee; */
+    width: 900px;
+}
+
+
+/* ---------- */
+/* MAIN */
+/* ---------- */
+
+main .sezione1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+main .sezione1 .content{
+    display: flex;
+}
+
+main .sezione2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+main .sezione2 .content{
+    display: flex;
+}
+
+main .sezione3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .sezione3 .content{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.sezione1 .content .content-blu{
+    background-color:#1e90ff;
+    width: 60%;
+}
+
+.sezione1 .content .content-pink{
+    background-color:#ffc0cb;
+    width: 40%;
+}
+
+.sezione3 .content{
+    width: 1200px;
+    height: 500px;
+}
+
+.sezione1 .content{
+    width: 1200px;
+}
+
+.sezione2 .content-green{
+    width: 1200px;
+    background-color:#228b22;
+}
+
+.sezione3{
+     background-color:#23272a ;
+}
+
+.sezione3 .content .content-red{
+    background-color:#f08080;
+    flex-grow: 2;
+}
+
+.sezione3 .content .content-acqua{
+    background-color:#20b2aa;
+    flex-grow: 1;}
+
+.fine-pagina{
+    background-color:#7fffd4;
+    width: 1200px ;
+}
+
+footer{
+    background-color:#23272a ;
+}
+
+.fine-pagina div{
+    background-color: #ffb6c1;
+    padding: 5px 10px;
+}
+
+.menu{
+    text-align: center;
+    line-height:45px ;
+}
+
+.header-lml .logo{
+    line-height: 45px;
+}
+
+.login{
+    text-align: right;
+    line-height: 45px;
+}
+
+.sfondo-grigio{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+
+/* ---------- */
+/* FOOTER */
+/* ---------- */
+footer{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    border-top: 2px solid #eeeeee ;
+}
+
+.fine-pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
