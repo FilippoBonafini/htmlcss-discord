@@ -194,6 +194,9 @@ header h1{
 
 .header-bottom .buttons{
     margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* ---------- */
@@ -368,9 +371,10 @@ footer{
 .fine-pagina{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     padding-top: 20px;
     border-top: 1px solid #7289da;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .sezione3 .content-acqua .titolo,
